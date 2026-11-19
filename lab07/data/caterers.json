@@ -1,0 +1,25 @@
+{
+  "_note": "Fictional caterers for Lab 7. Prices are per guest in GHS.",
+  "caterers": [
+    {"id": "C1", "name": "Auntie Esi's Kitchen", "price_per_head_ghs": 120, "min_guests": 30,
+     "needs": ["open-flame cooking on site"],
+     "packages": {"standard": ["jollof rice", "grilled chicken", "salad", "soft drinks"],
+                  "premium": ["jollof rice", "fried rice", "grilled tilapia", "chicken", "kelewele", "salad", "drinks"]},
+     "premium_extra_per_head_ghs": 40, "dietary": ["vegetarian on request"]},
+    {"id": "C2", "name": "Royal Buffet Services", "price_per_head_ghs": 180, "min_guests": 50,
+     "needs": ["kitchen access"],
+     "packages": {"standard": ["fried rice", "banku and tilapia", "chicken stew", "fruit", "drinks"],
+                  "premium": ["standard menu", "goat light soup", "dessert", "mocktails"]},
+     "premium_extra_per_head_ghs": 60, "dietary": ["vegetarian", "halal"]},
+    {"id": "C3", "name": "Campus Bites", "price_per_head_ghs": 75, "min_guests": 20,
+     "needs": ["none: food delivered ready to serve"],
+     "packages": {"standard": ["jollof rice", "chicken", "bottled water"],
+                  "premium": ["jollof rice", "waakye", "chicken", "plantain", "soft drinks"]},
+     "premium_extra_per_head_ghs": 25, "dietary": ["vegetarian on request"]},
+    {"id": "C4", "name": "Chef Kwame Grill & Co.", "price_per_head_ghs": 150, "min_guests": 60,
+     "needs": ["open-flame cooking on site", "outdoor space"],
+     "packages": {"standard": ["kebabs", "grilled chicken", "yam chips", "salad", "drinks"],
+                  "premium": ["standard menu", "grilled lobster tails", "dessert"]},
+     "premium_extra_per_head_ghs": 90, "dietary": ["halal on request"]}
+  ]
+}

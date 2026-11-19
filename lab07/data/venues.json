@@ -1,0 +1,17 @@
+{
+  "_note": "Fictional venues for Lab 7. Costs are for one evening in GHS. The default scenario is 80 guests and a total budget of GHS 20,000 for venue plus catering. Set the budget below GHS 1,500 (or the headcount above 200) to make every venue refuse. Remember the venue must leave enough budget for catering.",
+  "venues": [
+    {"id": "V1", "name": "Great Hall Annex", "location": "Legon campus", "capacity": 120, "cost_ghs": 6000,
+     "constraints": ["no open flames indoors", "must end by 10:00pm"], "has_kitchen": false, "parking": 30},
+    {"id": "V2", "name": "Botanical Garden Pavilion", "location": "Legon", "capacity": 100, "cost_ghs": 7500,
+     "constraints": ["outdoor: needs a tent if it rains (GHS 1,500 extra)", "open-flame cooking allowed"], "has_kitchen": false, "parking": 50},
+    {"id": "V3", "name": "Staff Club Dining Room", "location": "Legon campus", "capacity": 70, "cost_ghs": 3500,
+     "constraints": ["in-house catering only"], "has_kitchen": true, "parking": 20},
+    {"id": "V4", "name": "Coastal View Hotel Ballroom", "location": "Labadi", "capacity": 200, "cost_ghs": 15000,
+     "constraints": ["in-house catering only", "minimum spend applies"], "has_kitchen": true, "parking": 80},
+    {"id": "V5", "name": "Department Seminar Room + Courtyard", "location": "CS Department", "capacity": 85, "cost_ghs": 1500,
+     "constraints": ["no open flames indoors", "must end by 9:00pm", "no sound system provided"], "has_kitchen": false, "parking": 15},
+    {"id": "V6", "name": "Alliance Events Centre", "location": "East Legon", "capacity": 90, "cost_ghs": 9000,
+     "constraints": ["external caterers allowed with kitchen access", "no open flames indoors"], "has_kitchen": true, "parking": 40}
+  ]
+}

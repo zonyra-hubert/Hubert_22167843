@@ -1,0 +1,12 @@
+order_id,customer,item,item_price_ghs,delivery_ghs,order_date,refunded
+KM1001,Customer A,Kente stole (small),180.00,25.00,2026-11-09,no
+KM1002,Customer B,Kente cloth (6 yards),950.00,40.00,2026-11-07,no
+KM1003,Customer C,Adinkra print shirt,220.00,25.00,2026-11-02,no
+KM1004,Customer D,Kente bag,260.00,25.00,2026-10-23,no
+KM1005,Customer E,Kente cloth (12 yards),1800.00,50.00,2026-11-10,no
+KM1006,Customer F,Beaded bracelet set,75.00,15.00,2026-11-05,yes
+KM1007,Customer G,Smock (batakari),420.00,30.00,2026-10-30,no
+KM1008,Customer H,Kente bow tie,90.00,15.00,2026-11-11,no
+KM1009,Customer I,Kente stole (graduation),310.00,25.00,2026-10-28,no
+KM1010,Customer J,Adinkra stamp set,140.00,20.00,2026-11-03,no
+KM1042,Customer K,Kente cloth (6 yards),980.00,40.00,2026-11-08,no

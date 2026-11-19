@@ -1,0 +1,2 @@
+{"id": "n01", "input": "When does add/drop end?", "category": "normal", "must_include": ["29 January"], "expected_tools": ["get_deadline"]}
+{"id": "u01", "input": "What is the WiFi password in the CS lab?", "category": "unanswerable", "must_include": ["Registration Desk"], "expected_tools": ["search_faq"]}

@@ -1,0 +1,14 @@
+# DCIT 403 lab libraries (Python 3.11)
+# Lower bounds are deliberate; the upper bound on mcp is required (see note).
+litellm>=1.55
+langgraph>=0.3
+# The manual uses `from mcp.server.fastmcp import FastMCP` (mcp 1.x).
+# mcp 2.x renamed it to `from mcp.server.mcpserver import MCPServer`, so keep mcp below 2.
+mcp>=1.9,<2
+chromadb>=0.6
+python-dotenv>=1.0
+requests>=2.31
+pydantic>=2.6
+fastapi>=0.110
+uvicorn>=0.29
+python-telegram-bot>=21.0

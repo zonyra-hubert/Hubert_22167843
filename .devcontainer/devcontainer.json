@@ -1,0 +1,37 @@
+{
+  "name": "DCIT 403 Labs",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "lts" }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "forwardPorts": [5678, 6274, 8000],
+  "portsAttributes": {
+    "5678": { "label": "n8n", "onAutoForward": "notify" },
+    "6274": { "label": "MCP Inspector", "onAutoForward": "notify" },
+    "8000": { "label": "FastAPI", "onAutoForward": "notify" }
+  },
+  "secrets": {
+    "GROQ_API_KEY": {
+      "description": "Your own free Groq API key (console.groq.com). Main model for the code labs. See the Free Model Access Guide."
+    },
+    "GEMINI_API_KEY": {
+      "description": "Your own free Google AI Studio API key. Used by n8n and as the backup model. See the Free Model Access Guide."
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "bierner.markdown-mermaid",
+        "yzhang.markdown-all-in-one"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "files.exclude": { "**/__pycache__": true }
+      }
+    }
+  },
+  "hostRequirements": { "cpus": 2, "memory": "4gb" }
+}

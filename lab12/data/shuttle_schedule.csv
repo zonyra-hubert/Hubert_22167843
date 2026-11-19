@@ -1,0 +1,15 @@
+route,stop,weekday_departures,saturday_departures,notes
+Main Gate - Great Hall,Main Gate,"06:30, 07:00, 07:30, 08:00 then every 30 min until 21:00","08:00 then every hour until 18:00",
+Main Gate - Great Hall,Night Market,"06:35, 07:05, 07:35, 08:05 then every 30 min until 21:05","08:05 then every hour until 18:05",
+Main Gate - Great Hall,Balme Library,"06:42, 07:12, 07:42, 08:12 then every 30 min until 21:12","08:12 then every hour until 18:12",
+Main Gate - Great Hall,Great Hall,"06:50, 07:20, 07:50, 08:20 then every 30 min until 21:20","08:20 then every hour until 18:20",
+Akuafo - Science,Akuafo Hall,"07:00 then every 20 min until 19:00",No service,
+Akuafo - Science,Business School,"07:06 then every 20 min until 19:06",No service,
+Akuafo - Science,Science Faculty,"07:12 then every 20 min until 19:12",No service,
+Akuafo - Science,CS Department,"07:15 then every 20 min until 19:15",No service,Stops on request only after 17:00
+Pent - Commonwealth,Pent Hostel,"06:45 then every 15 min until 20:00","09:00 then every 45 min until 17:00",
+Pent - Commonwealth,TF Hostel,"06:50 then every 15 min until 20:05","09:05 then every 45 min until 17:05",
+Pent - Commonwealth,Sports Stadium,"06:55 then every 15 min until 20:10","09:10 then every 45 min until 17:10",
+Pent - Commonwealth,Commonwealth Hall,"07:02 then every 15 min until 20:17","09:17 then every 45 min until 17:17",
+Night Shuttle,Main Gate,"21:30, 22:15, 23:00",No service,Fictional route: weekdays during examinations only
+Night Shuttle,Balme Library,"21:40, 22:25, 23:10",No service,Fictional route: weekdays during examinations only

@@ -1,0 +1,13 @@
+{
+  "_note": "ALL RECORDS ARE FICTIONAL. Names, IDs and phone numbers are invented for DCIT 403 Lab 11.",
+  "students": [
+    {"student_id": "10900001", "name": "Ama Mensah", "hall": "Volta Hall", "room": "V-214", "phone": "+233 20 000 0101", "email": "ama.mensah@students.example.edu.gh", "fees_owed_ghs": 0, "notes": "Hall executive (welfare)."},
+    {"student_id": "10900002", "name": "Kofi Boateng", "hall": "Commonwealth Hall", "room": "C-118", "phone": "+233 24 000 0202", "email": "kofi.boateng@students.example.edu.gh", "fees_owed_ghs": 450, "notes": "Payment plan agreed until end of semester."},
+    {"student_id": "10900003", "name": "Efua Owusu", "hall": "Volta Hall", "room": "V-305", "phone": "+233 55 000 0303", "email": "efua.owusu@students.example.edu.gh", "fees_owed_ghs": 0, "notes": "Room change requested."},
+    {"student_id": "10900004", "name": "Yaw Asante", "hall": "Legon Hall", "room": "L-022", "phone": "+233 27 000 0404", "email": "yaw.asante@students.example.edu.gh", "fees_owed_ghs": 1200, "notes": "Warning letter issued for late fees."},
+    {"student_id": "10900005", "name": "Abena Darko", "hall": "Akuafo Hall", "room": "A-411", "phone": "+233 26 000 0505", "email": "abena.darko@students.example.edu.gh", "fees_owed_ghs": 0, "notes": ""},
+    {"student_id": "10900006", "name": "Kwame Addo", "hall": "Commonwealth Hall", "room": "C-207", "phone": "+233 50 000 0606", "email": "kwame.addo@students.example.edu.gh", "fees_owed_ghs": 300, "notes": "Disciplinary hearing scheduled (noise complaint)."},
+    {"student_id": "10900007", "name": "Akosua Frimpong", "hall": "Akuafo Hall", "room": "A-109", "phone": "+233 54 000 0707", "email": "akosua.frimpong@students.example.edu.gh", "fees_owed_ghs": 0, "notes": "Needs ground-floor room."},
+    {"student_id": "10900008", "name": "Kojo Antwi", "hall": "Legon Hall", "room": "L-310", "phone": "+233 24 000 0808", "email": "kojo.antwi@students.example.edu.gh", "fees_owed_ghs": 75, "notes": ""}
+  ]
+}
