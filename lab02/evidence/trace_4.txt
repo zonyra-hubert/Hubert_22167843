@@ -1,0 +1,8 @@
+Question: What does Wikipedia say about the Makola Golden Yam Festival of 1823?
+
+--- Step 1 ---
+Model call failed: BadRequestError: litellm.BadRequestError: GroqException - {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generation":"{\"name\": \"wiki_lookup\", \"arguments\": {\"title\":\"Makola Golden Yam Festival\"}}"}}
+
+
+Final answer: Sorry, I could not reach the model. Please try again shortly.
+Total tokens: 0

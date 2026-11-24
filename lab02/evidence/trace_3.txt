@@ -1,0 +1,8 @@
+Question: How many regions does Ghana have? If I open one shop in each region at GHS 2,500 per shop, what is the total?
+
+--- Step 1 ---
+Model call failed: BadRequestError: litellm.BadRequestError: GroqException - {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generation":"{\"name\": \"wiki_lookup\", \"arguments\": {\"title\":\"Ghana\"}}"}}
+
+
+Final answer: Sorry, I could not reach the model. Please try again shortly.
+Total tokens: 0

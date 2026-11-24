@@ -1,0 +1,8 @@
+Question: rice 185 x4 oil 95 x3 i got 1200 how much remain??
+
+--- Step 1 ---
+Model call failed: BadRequestError: litellm.BadRequestError: GroqException - {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generation":"{\"name\": \"calculator\", \"arguments\": {\"expression\":\"740+285\"}}"}}
+
+
+Final answer: Sorry, I could not reach the model. Please try again shortly.
+Total tokens: 0
